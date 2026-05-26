@@ -528,11 +528,8 @@
           <h3 class="font-serif text-2xl sm:text-3xl text-creme">Nachricht senden</h3>
           <p class="text-creme/50 text-sm mt-2">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
 
-          <form class="mt-6 space-y-4" action="https://formspree.io/f/xzdwkrdj" method="POST">
-            <!-- Formspree-Anti-Spam -->
-            <input type="text" name="_gotcha" style="display:none" />
-            <!-- Weiterleitung nach erfolgreichem Senden -->
-            <input type="hidden" name="_next" value="https://lehmann-neitzel.vercel.app/danke.html" />
+          <form class="mt-6 space-y-4" id="kontaktForm">
+            <input type="hidden" name="_gotcha" style="display:none" />
 
             <!-- Name -->
             <div>
@@ -585,11 +582,54 @@
             <!-- Absenden-Button -->
             <button
               type="submit"
+              id="submitBtn"
               class="w-full bg-salbei text-moos font-semibold text-base sm:text-lg px-6 py-3.5 rounded-xl shadow-lg shadow-salbei/20 hover:bg-salbei/90 hover:shadow-xl hover:shadow-salbei/30 transition-all"
             >
               Nachricht senden
             </button>
           </form>
+
+          <!-- Status-Meldung -->
+          <div id="formStatus" class="mt-4 text-sm hidden"></div>
+
+          <script>
+            document.getElementById('kontaktForm').addEventListener('submit', async function(e) {
+              e.preventDefault();
+              const btn = document.getElementById('submitBtn');
+              const status = document.getElementById('formStatus');
+              const formData = new FormData(this);
+              const data = {};
+              formData.forEach((value, key) => { if (key !== '_gotcha') data[key] = value; });
+
+              btn.disabled = true;
+              btn.textContent = 'Wird gesendet…';
+              status.classList.add('hidden');
+
+              try {
+                const response = await fetch('https://formspree.io/f/xzdwkrdj', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(data),
+                });
+
+                if (response.ok) {
+                  status.textContent = '✅ Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.';
+                  status.className = 'mt-4 text-sm text-salbei';
+                  this.reset();
+                } else {
+                  status.textContent = '❌ Fehler beim Senden. Bitte versuchen Sie es später noch einmal.';
+                  status.className = 'mt-4 text-sm text-red-400';
+                }
+              } catch (error) {
+                status.textContent = '❌ Netzwerkfehler. Bitte überprüfen Sie Ihre Internetverbindung.';
+                status.className = 'mt-4 text-sm text-red-400';
+              }
+
+              status.classList.remove('hidden');
+              btn.disabled = false;
+              btn.textContent = 'Nachricht senden';
+            });
+          </script>
         </div>
 
       </div>
