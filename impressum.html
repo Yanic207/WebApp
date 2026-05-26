@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum – Lehmann &amp; Neitzel</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            moos:       '#0B1611',
+            salbei:     '#93C572',
+            creme:      '#F4F1EA',
+          },
+          fontFamily: {
+            serif:      ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:       ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: #0B1611;
+      color: #F4F1EA;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER (gleicher Stil wie Hauptseite)
+       ============================================================ -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-moos/90 backdrop-blur-sm border-b border-salbei/10">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 flex items-center justify-between h-20 sm:h-24">
+
+      <!-- Logo (zurück zur Startseite) -->
+      <a href="index.html" class="block">
+        <img
+          src="assets/Logo.webp"
+          alt="Lehmann &amp; Neitzel"
+          class="h-12 sm:h-16 w-auto"
+        />
+      </a>
+
+      <!-- Zurück-Button -->
+      <a
+        href="index.html"
+        class="inline-flex items-center gap-2 border border-creme/30 text-creme text-sm sm:text-base px-5 py-2.5 rounded-full hover:bg-creme/10 hover:border-creme/50 transition-all"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5l-7.5-7.5 7.5-7.5M3 12h18" />
+        </svg>
+        Zurück
+      </a>
+
+    </div>
+  </header>
+
+  <div class="h-20 sm:h-24"></div>
+
+  <!-- ============================================================
+       IMPRESSUM-INHALT
+       ============================================================ -->
+  <main class="max-w-3xl mx-auto px-5 sm:px-8 lg:px-12 py-16 sm:py-24">
+
+    <h1 class="font-serif text-4xl sm:text-5xl text-creme mb-12">Impressum</h1>
+
+    <div class="space-y-10 text-creme/80 text-base sm:text-lg leading-relaxed">
+
+      <!-- Firma -->
+      <div>
+        <h2 class="font-serif text-2xl text-creme mb-3">Lehmann &amp; Neitzel</h2>
+      </div>
+
+      <!-- Anschrift -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Anschrift</h3>
+        <p>
+          Bürgerweg 8<br />
+          32825 Blomberg
+        </p>
+      </div>
+
+      <!-- Kontakt -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Kontakt</h3>
+        <p>
+          Tel.:&nbsp;&nbsp; 0177 3694480<br />
+          E-Mail:&nbsp;&nbsp; <a href="mailto:info@lehmann-neitzel.de" class="text-creme underline hover:text-salbei transition-colors">info@lehmann-neitzel.de</a>
+        </p>
+      </div>
+
+      <!-- Rechtsform -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Rechtsform</h3>
+        <p>Einzelunternehmen</p>
+      </div>
+
+      <!-- Vertretungsberechtigt -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Vertretungsberechtigt</h3>
+        <p>Heiko Lehmann (Betreiber der Website)</p>
+      </div>
+
+      <!-- Umsatzsteuer -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Umsatzsteuer-ID</h3>
+        <p>DE351515870</p>
+      </div>
+
+      <!-- Design & Umsetzung -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Design &amp; Umsetzung</h3>
+        <p>
+          Websmart GmbH &amp; Co.KG<br />
+          <a href="https://www.websmart.de" target="_blank" rel="noopener noreferrer" class="text-creme underline hover:text-salbei transition-colors">www.websmart.de</a>
+        </p>
+      </div>
+
+      <!-- Haftungshinweis -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Haftungshinweis</h3>
+        <p>
+          Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung
+          für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten
+          sind ausschließlich deren Betreiber verantwortlich.
+        </p>
+      </div>
+
+      <!-- Streitigkeiten -->
+      <div>
+        <h3 class="text-salbei font-semibold text-sm uppercase tracking-[0.1em] mb-2">Streitigkeiten</h3>
+        <p>
+          Wir sind nicht bereit oder verpflichtet, an einem
+          Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+          teilzunehmen.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Zurück-Link unten -->
+    <div class="mt-16 pt-8 border-t border-salbei/10">
+      <a
+        href="index.html"
+        class="inline-flex items-center gap-2 text-salbei hover:text-salbei/80 transition-colors font-medium"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5l-7.5-7.5 7.5-7.5M3 12h18" />
+        </svg>
+        Zurück zur Startseite
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="border-t border-salbei/10 bg-moos/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-creme/40 text-sm">
+      <p>&copy; 2025 Lehmann &amp; Neitzel GbR – Gartenbau aus Ostwestfalen-Lippe</p>
+      <div class="flex items-center gap-5">
+        <a href="impressum.html" class="hover:text-creme/60 transition-colors">Impressum</a>
+        <a href="datenschutz.html" class="hover:text-creme/60 transition-colors">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

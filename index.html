@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lehmann &amp; Neitzel – Gartenbau aus Ostwestfalen-Lippe</title>
+
+  <!-- Google Fonts: Serif für Überschriften + Inter für Fließtext -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            moos:       '#0B1611',
+            salbei:     '#93C572',
+            creme:      '#F4F1EA',
+          },
+          fontFamily: {
+            serif:      ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:       ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: #0B1611;
+      color: #F4F1EA;
+    }
+    /* Platzhalter-Stil für die Hero – falls Tailwind nicht lädt */
+    .hero-bg {
+      background-image: url('assets/img_1-1920w.webp');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVBAR (Sticky)
+       ============================================================ -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-moos/90 backdrop-blur-sm border-b border-salbei/10">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 flex items-center justify-between h-20 sm:h-24">
+
+      <!-- Logo -->
+      <a href="#" class="block">
+        <img
+          src="assets/Logo.webp"
+          alt="Lehmann &amp; Neitzel"
+          class="h-12 sm:h-16 w-auto"
+        />
+      </a>
+
+      <!-- Telefon-Button (rechts) -->
+      <a
+        href="tel:+495201123456"
+        class="inline-flex items-center gap-2 bg-salbei text-moos font-semibold text-sm sm:text-base px-6 py-3 rounded-full hover:bg-salbei/90 transition-colors"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+        </svg>
+        05201 / 123 456
+      </a>
+
+    </div>
+  </header>
+
+  <!-- Platzhalter, damit der fixed Header den Content nicht überlappt -->
+  <div class="h-20 sm:h-24"></div>
+
+  <!-- ============================================================
+       HERO-SECTION
+       ============================================================ -->
+  <section class="hero-bg relative min-h-[85vh] flex items-center">
+    <!-- Overlay für Lesbarkeit -->
+    <div class="absolute inset-0 bg-gradient-to-r from-moos/85 via-moos/60 to-moos/40"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-20 w-full">
+
+      <!-- Badge / Kategorie -->
+      <p class="text-salbei font-medium text-sm sm:text-base uppercase tracking-[0.15em] mb-4">
+        Gartenbau aus Ostwestfalen-Lippe
+      </p>
+
+      <!-- Großer Titel -->
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-creme leading-tight max-w-3xl">
+        Ihr Garten.<br />
+        <span class="italic">Ihr Lebensraum.</span>
+      </h1>
+
+      <!-- Beschreibung -->
+      <p class="mt-6 text-creme/80 text-base sm:text-lg md:text-xl max-w-xl leading-relaxed">
+        Seit über 25 Jahren verwandeln wir Grundstücke in OWL in lebendige
+        Gärten – mit Liebe zum Detail, regionalen Pflanzen und einer
+        Handwerkskunst, die man sieht und spürt.
+      </p>
+
+      <!-- Buttons -->
+      <div class="mt-10 flex flex-wrap gap-4">
+
+        <!-- Primär-Button: Termin anfragen -->
+        <a
+          href="#kontakt"
+          class="inline-block bg-salbei text-moos font-semibold text-sm sm:text-base px-7 py-3.5 rounded-full shadow-lg shadow-salbei/20 hover:bg-salbei/90 hover:shadow-xl hover:shadow-salbei/30 transition-all"
+        >
+          Termin anfragen
+        </a>
+
+        <!-- Sekundär-Button: Telefonnummer -->
+        <a
+          href="tel:+495201123456"
+          class="inline-flex items-center gap-2 border-2 border-creme/30 text-creme font-medium text-sm sm:text-base px-7 py-3.5 rounded-full hover:bg-creme/10 hover:border-creme/50 transition-all"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+          05201 / 123 456
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WILLKOMMEN-SEKTION
+       ============================================================ -->
+  <section class="py-24 sm:py-32 px-5 sm:px-8 lg:px-12">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+      <!-- Linke Spalte: Überschrift -->
+      <div>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-creme leading-tight">
+          Wir gestalten Ihren Garten
+          <em class="italic not-italic">individuell</em>
+          und kreativ
+        </h2>
+        <p class="mt-6 text-creme/70 text-base sm:text-lg leading-relaxed max-w-md">
+          Jeder Garten erzählt eine eigene Geschichte. Wir hören zu,
+          beraten ehrlich und setzen Ihre Wünsche mit handwerklicher
+          Präzision um – von der ersten Skizze bis zur letzten Pflanze.
+        </p>
+      </div>
+
+      <!-- Rechte Spalte: Facts-Grid -->
+      <div class="grid grid-cols-2 gap-5">
+
+        <!-- Fact 1 -->
+        <div class="bg-moos/50 border border-salbei/10 rounded-2xl p-6 sm:p-8 text-center backdrop-blur-sm">
+          <span class="block font-serif text-3xl sm:text-4xl text-salbei">20+</span>
+          <span class="block text-creme/60 text-sm sm:text-base mt-1">Jahre Erfahrung</span>
+        </div>
+
+        <!-- Fact 2 -->
+        <div class="bg-moos/50 border border-salbei/10 rounded-2xl p-6 sm:p-8 text-center backdrop-blur-sm">
+          <span class="block font-serif text-3xl sm:text-4xl text-salbei">500+</span>
+          <span class="block text-creme/60 text-sm sm:text-base mt-1">Projekte</span>
+        </div>
+
+        <!-- Fact 3 -->
+        <div class="bg-moos/50 border border-salbei/10 rounded-2xl p-6 sm:p-8 text-center backdrop-blur-sm">
+          <span class="block font-serif text-3xl sm:text-4xl text-salbei">OWL</span>
+          <span class="block text-creme/60 text-sm sm:text-base mt-1">Region</span>
+        </div>
+
+        <!-- Fact 4: Mitglied im BuGG -->
+        <div class="bg-salbei/10 border border-salbei/30 rounded-2xl p-6 sm:p-8 text-center backdrop-blur-sm flex flex-col items-center justify-center">
+          <img
+            src="assets/BuGG.webp"
+            alt="Mitglied im BuGG"
+            class="h-10 sm:h-12 w-auto mb-2"
+          />
+          <span class="text-creme/50 text-xs sm:text-sm">Mitglied im BuGG</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ÜBER UNS-SEKTION
+       ============================================================ -->
+  <section class="py-24 sm:py-32 px-5 sm:px-8 lg:px-12 bg-moos/30">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+      <!-- Linke Spalte: Großes Bild -->
+      <div class="relative">
+        <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl shadow-black/40">
+          <img
+            src="assets/img_6-1920w.webp"
+            alt="Gestalteter Garten mit Pool und Liegewiese"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+        <!-- Kleine Bildunterschrift / Akzent -->
+        <div class="absolute -bottom-3 -right-3 bg-salbei text-moos text-sm font-semibold px-5 py-2 rounded-full shadow-lg">
+          Seit 2002 in OWL
+        </div>
+      </div>
+
+      <!-- Rechte Spalte: Text -->
+      <div>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-creme leading-tight">
+          Unsere Arbeit für Ihre<br />
+          Wohlfühloase
+        </h2>
+
+        <div class="mt-8 space-y-5 text-creme/70 text-base sm:text-lg leading-relaxed">
+          <p>
+            Bei <strong class="text-creme font-medium">Lehmann &amp; Neitzel</strong>
+            verbinden wir traditionelles Gärtnerhandwerk mit moderner
+            Gestaltung. Jedes Projekt beginnt mit einem persönlichen
+            Gespräch – vor Ort, mit offenen Ohren und einem Blick für
+            das Machbare. Ob naturnaher Bauerngarten, repräsentative
+            Stadtvilla oder weitläufiges Landgrundstück: Wir schaffen
+            Räume, die bleiben.
+          </p>
+          <p>
+            Unser Team aus erfahrenen Gärtnermeistern, Landschaftsarchitekten
+            und Naturgärtnern arbeitet ausschließlich mit regionalen
+            Gehölzen und nachhaltigen Materialien. So entstehen Gärten,
+            die nicht nur schön aussehen, sondern auch im Gleichgewicht
+            mit ihrer Umgebung stehen – für Mensch, Tier und Pflanze.
+          </p>
+        </div>
+
+        <!-- Kleine Zusatzinfo -->
+        <div class="mt-8 flex items-center gap-3 text-salbei text-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>Zertifizierter Fachbetrieb &bull; Regionale Pflanzen &bull; Nachhaltige Konzepte</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LEISTUNGEN-SEKTION
+       ============================================================ -->
+  <section class="py-24 sm:py-32 px-5 sm:px-8 lg:px-12">
+    <div class="max-w-7xl mx-auto">
+
+      <!-- Überschrift -->
+      <div class="text-center mb-16">
+        <span class="text-salbei text-sm font-medium uppercase tracking-[0.15em]">Unsere Expertise</span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-creme mt-3">
+          Was wir für Sie tun
+        </h2>
+        <div class="w-16 h-0.5 bg-salbei/50 mx-auto mt-5"></div>
+      </div>
+
+      <!-- 3-spaltiges Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-salbei/15 rounded-2xl overflow-hidden">
+
+        <!-- 1. Pflaster & Terrassen -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Pflaster &amp; Terrassen</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Hochwertige Natursteinarbeiten, kreative Verlegemuster und langlebige
+            Terrassen aus Holz, Stein oder WPC.
+          </p>
+        </div>
+
+        <!-- 2. Teich & Schwimmteich -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Teich &amp; Schwimmteich</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Naturnahe Schwimmteiche und Biotope – ökologisch wertvoll,
+            kristallklar und pflegeleicht geplant und gebaut.
+          </p>
+        </div>
+
+        <!-- 3. Begrünung & Rasen -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Begrünung &amp; Rasen</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Rollrasen, Saatgut nach Maß, Fassadenbegrünung und
+            Staudenpflanzungen – für mehr Grün in Ihrem Garten.
+          </p>
+        </div>
+
+        <!-- 4. Erdarbeiten & Zaunbau -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9m9-14.25v20.25" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Erdarbeiten &amp; Zaunbau</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Präzise Erdbewegung, Drainage, Sichtschutzzäune und
+            Einfriedungen – solide Basis für jedes Grundstück.
+          </p>
+        </div>
+
+        <!-- 5. Garten & Neuanlage -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Garten &amp; Neuanlage</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Komplette Gartengestaltung nach Plan – von der
+            Grundstücksmodellierung bis zur finalen Bepflanzung.
+          </p>
+        </div>
+
+        <!-- 6. Wasserspiele & Pflege -->
+        <div class="bg-moos p-8 sm:p-10 flex flex-col items-start group hover:bg-salbei/5 transition-colors">
+          <div class="w-11 h-11 rounded-lg border border-salbei/30 flex items-center justify-center text-salbei group-hover:bg-salbei/10 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            </svg>
+          </div>
+          <h3 class="font-serif text-xl text-creme mt-5">Wasserspiele &amp; Pflege</h3>
+          <p class="text-creme/60 text-sm sm:text-base mt-2 leading-relaxed">
+            Springbrunnen, Bachläufe und regelmäßige Gartenpflege –
+            damit Ihre Oase das ganze Jahr erstrahlt.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA-BANNER
+       ============================================================ -->
+  <section class="py-16 sm:py-20 px-5 sm:px-8 lg:px-12 bg-gradient-to-r from-moos via-salbei/5 to-moos">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="text-salbei text-sm font-medium uppercase tracking-[0.15em]">Jetzt aktiv werden</span>
+      <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-creme mt-3 leading-tight">
+        Vereinbaren Sie einen Termin
+      </h2>
+      <p class="text-creme/60 text-base sm:text-lg mt-4 max-w-xl mx-auto leading-relaxed">
+        Lernen Sie uns unverbindlich kennen. Wir kommen zu Ihnen,
+        hören zu und skizzieren die ersten Ideen für Ihren Traumgarten.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 mt-8">
+        <a
+          href="#kontakt"
+          class="inline-block bg-salbei text-moos font-semibold text-sm sm:text-base px-8 py-3.5 rounded-full shadow-lg shadow-salbei/20 hover:bg-salbei/90 hover:shadow-xl hover:shadow-salbei/30 transition-all"
+        >
+          Termin anfragen
+        </a>
+        <a
+          href="tel:+495201123456"
+          class="inline-flex items-center gap-2 border-2 border-creme/30 text-creme font-medium text-sm sm:text-base px-8 py-3.5 rounded-full hover:bg-creme/10 hover:border-creme/50 transition-all"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+          05201 / 123 456
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       IMPRESSIONEN / GALERIE
+       ============================================================ -->
+  <section class="py-24 sm:py-32 px-5 sm:px-8 lg:px-12">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <span class="text-salbei text-sm font-medium uppercase tracking-[0.15em]">Galerie</span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-creme mt-3">
+          Impressionen
+        </h2>
+        <div class="w-16 h-0.5 bg-salbei/50 mx-auto mt-5"></div>
+      </div>
+
+      <!-- Asymmetrisches Masonry-artiges Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+
+        <!-- Bild 1 – groß, 2×2 -->
+        <div class="col-span-2 row-span-2 rounded-2xl overflow-hidden shadow-xl shadow-black/30">
+          <img
+            src="assets/img_2-1920w.webp"
+            alt="Großzügiger Garten mit Steinmauern und Staudenbeeten"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        <!-- Bild 2 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg shadow-black/20 aspect-square">
+          <img
+            src="assets/img_3-1920w.webp"
+            alt="Moderne Lounge-Ecke im Garten"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        <!-- Bild 3 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg shadow-black/20 aspect-square">
+          <img
+            src="assets/img_4-1920w.webp"
+            alt="Pool mit Liegewiese und Pergola"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        <!-- Bild 4 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg shadow-black/20 aspect-[4/3]">
+          <img
+            src="assets/img_7-1920w.webp"
+            alt="Naturstein-Terrasse mit Gartenmöbeln"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        <!-- Bild 5 -->
+        <div class="rounded-2xl overflow-hidden shadow-lg shadow-black/20 aspect-[4/3]">
+          <img
+            src="assets/img_6-1920w.webp"
+            alt="Schwimmteich mit Holzdeck"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       KONTAKT & FOOTER
+       ============================================================ -->
+  <footer id="kontakt" class="border-t border-salbei/10 bg-moos/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16 sm:py-20">
+
+      <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
+
+        <!-- Linke Spalte: Firmendaten -->
+        <div>
+          <h3 class="font-serif text-2xl sm:text-3xl text-creme">Kontakt</h3>
+          <div class="mt-8 space-y-5 text-creme/70 text-base sm:text-lg">
+
+            <div class="flex items-start gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 text-salbei shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              <div>
+                <strong class="block text-creme font-medium">Lehmann &amp; Neitzel GbR</strong>
+                <span>Bürgerweg 8, 32825 Blomberg</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-salbei shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+              </svg>
+              <a href="tel:+495201123456" class="hover:text-creme transition-colors">05201 / 123 456</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-salbei shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+              </svg>
+              <a href="mailto:info@lehmann-neitzel.de" class="hover:text-creme transition-colors">info@lehmann-neitzel.de</a>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 text-salbei shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div>
+                <strong class="block text-creme font-medium">Öffnungszeiten</strong>
+                <span>Mo – Fr: 8:00 – 17:00 Uhr</span>
+                <span class="block text-creme/50 text-sm">Samstag nach Vereinbarung</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- BuGG Mitglied -->
+          <div class="mt-8 pt-6 border-t border-salbei/10 flex items-center gap-4">
+            <img
+              src="assets/BuGG.webp"
+              alt="Mitglied im BuGG – Bundesverband Garten-, Landschafts- und Sportplatzbau"
+              class="h-12 sm:h-14 w-auto"
+            />
+            <div class="text-creme/50 text-xs sm:text-sm leading-relaxed">
+              <strong class="block text-creme/70 text-sm">Mitglied im BuGG</strong>
+              Bundesverband Garten-, Landschafts- &amp; Sportplatzbau
+            </div>
+          </div>
+        </div>
+
+        <!-- Rechte Spalte: Kontaktformular -->
+        <div>
+          <h3 class="font-serif text-2xl sm:text-3xl text-creme">Nachricht senden</h3>
+          <p class="text-creme/50 text-sm mt-2">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
+
+          <form class="mt-6 space-y-4" action="https://formspree.io/f/xzdwkrdj" method="POST">
+            <!-- Name -->
+            <div>
+              <label for="name" class="block text-sm text-creme/70 mb-1">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Ihr Name"
+                class="w-full bg-moos border border-salbei/20 rounded-xl px-4 py-3 text-creme placeholder:text-creme/30 focus:outline-none focus:border-salbei/60 focus:ring-1 focus:ring-salbei/40 transition-all"
+              />
+            </div>
+
+            <!-- E-Mail -->
+            <div>
+              <label for="email" class="block text-sm text-creme/70 mb-1">E-Mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="ihre@mail.de"
+                class="w-full bg-moos border border-salbei/20 rounded-xl px-4 py-3 text-creme placeholder:text-creme/30 focus:outline-none focus:border-salbei/60 focus:ring-1 focus:ring-salbei/40 transition-all"
+              />
+            </div>
+
+            <!-- Telefon -->
+            <div>
+              <label for="phone" class="block text-sm text-creme/70 mb-1">Telefon (optional)</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="05201 / ..."
+                class="w-full bg-moos border border-salbei/20 rounded-xl px-4 py-3 text-creme placeholder:text-creme/30 focus:outline-none focus:border-salbei/60 focus:ring-1 focus:ring-salbei/40 transition-all"
+              />
+            </div>
+
+            <!-- Nachricht -->
+            <div>
+              <label for="message" class="block text-sm text-creme/70 mb-1">Nachricht</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Ihre Nachricht an uns …"
+                class="w-full bg-moos border border-salbei/20 rounded-xl px-4 py-3 text-creme placeholder:text-creme/30 focus:outline-none focus:border-salbei/60 focus:ring-1 focus:ring-salbei/40 transition-all resize-none"
+              ></textarea>
+            </div>
+
+            <!-- Absenden-Button -->
+            <button
+              type="submit"
+              class="w-full bg-salbei text-moos font-semibold text-base sm:text-lg px-6 py-3.5 rounded-xl shadow-lg shadow-salbei/20 hover:bg-salbei/90 hover:shadow-xl hover:shadow-salbei/30 transition-all"
+            >
+              Nachricht senden
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Untere Footer-Leiste -->
+      <div class="mt-16 pt-8 border-t border-salbei/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-creme/40 text-sm">
+        <p>&copy; 2025 Lehmann &amp; Neitzel GbR – Gartenbau aus Ostwestfalen-Lippe</p>
+        <div class="flex items-center gap-5">
+          <a href="impressum.html" class="hover:text-creme/60 transition-colors">Impressum</a>
+          <a href="datenschutz.html" class="hover:text-creme/60 transition-colors">Datenschutz</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
+</html>

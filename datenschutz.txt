@@ -1,0 +1,156 @@
+Datenschutzerklärung und Cookies
+Wir freuen uns über Ihren Besuch und das damit verbundene Interesse an unserem Internetauftritt. Der Schutz Ihrer personenbezogenen Daten ist uns ein sehr wichtiges Anliegen und daher von größter Bedeutung. Im Folgenden möchten wir Sie daher über die Erhebung, Verarbeitung und Nutzung Ihrer personenbezogenen Daten als auch unserer Cookie-Nutzung bei dem Besuch unserer Website informieren.
+
+Bitte achten Sie darauf, dass diese Datenschutzrichtlinie von Zeit zu Zeit durch die Implementierung neuer Techniken und/oder durch Gesetzesänderungen aktualisiert werden kann. Hierauf machen wir Sie in geeigneter Weise aufmerksam. Selbstverständlich werden wir bei allen Änderungen stets Ihre angemessenen Interessen berücksichtigen.
+
+Datenschutz
+Verantwortlicher
+Verantwortlicher gemäß Art. 4 Nr. 7 EU-Datenschutz-Grundverordnung („DSGVO“) ist
+Lehmann & Neitzel
+Heiko Lehmann
+Bürgerweg 8
+32825 Blomberg
+lehmann-garten@web.de.
+Bei Fragen oder Anmerkungen zu dieser Datenschutzerklärung oder allgemein zum Datenschutz wenden Sie sich bitte an
+Heiko Lehmann unter lehmann-garten@web.de.
+Allgemeine Informationen zur Speicherfrist
+Wir löschen personenbezogene Daten, nachdem und soweit die Speicherung zur Vertragsabwicklung bzw. Durchführung nicht mehr erforderlich ist und keine berechtigten Interessen oder gesetzlichen Pflichten unsererseits, wie etwa die gesetzliche Aufbewahrungspflichten (§ 147 AO, § 257 HGB, § 14?b UStG) einer Löschung entgegenstehen. Daten, die auf Grundlage eines Vertragsverhältnisses verarbeitet werden, werden grundsätzlich fünf bis zehn Jahre nach dessen Ende gelöscht.
+
+Erhebung von personenbezogenen Daten bei Besuch unserer Website
+Server-Logfiles
+Bei der ausschließlich informatorischen Nutzung unserer Website, also dann, wenn Sie unsere Website nur zum Abruf von Informationen besuchen, ist es grundsätzlich nicht erforderlich, dass Sie personenbezogene Daten angeben. In einem solchen Fall erheben und verwenden wir vielmehr nur diejenigen Daten, die uns Ihr Internetbrowser an unseren Server übermittelt. Die nachfolgenden Daten werden bei Ihrem Besuch auf unserer Website erhoben und verwendet:
+IP-Adresse
+Datum und Uhrzeit des Abrufs unserer Website
+Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+Inhalt der Anforderung (konkrete Seite)
+Zugriffsstatus / HTTP-Statuscode
+jeweils übertragene Datenmenge
+Webseite, von der die Anforderung kommt
+Browser
+Verwendetes Betriebssystem und dessen Oberfläche
+Sprache und Version der Browsersoftware
+Die vorübergehende Speicherung der IP-Adresse durch das System ist notwendig, um eine Auslieferung der Webseiten an das Endgerät des Nutzers zu ermöglichen. Hierfür muss die IP-Adresse des Nutzers für die Dauer der Sitzung gespeichert bleiben.
+Die Speicherung in Logfiles erfolgt, um die Funktionsfähigkeit der Webseiten sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme. Hierfür werden die Server Logfiles (auch die IP-Adresse) zum Schutz des Systems und der Cloud-Umgebung unseres Hosting-Dienstleisters / dessen Unterauftragsverarbeiters für 1 Jahr aufbewahrt. Dies dient dazu, potenzielle Angriffe und sicherheitsrelevante Ereignisse auf diese Infrastruktur anhand von Zugriffsprotokollen zu detektieren und abzuwehren (Stichwort „Advanced Persistance Threads“). Eine Auswertung der Daten zu Marketingzwecken findet in diesem Zusammenhang nicht statt. In diesen Zwecken liegt auch unser berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 S. 1 lit. f) DSGVO.
+Website-Pflege und Hosting
+Zur Pflege und zum Hosten unserer Website setzen wir einen externen Dienstleister, die Websmart GmbH & Co. KG, Hainichenring 8, 46284 Dorsten, ein, welche Zugriff auf Ihre Daten nehmen kann. Dieser Dienstleister wird als sogenannter Auftragsverarbeiter eingesetzt und gewährleistet damit einen sicheren Umgang mit Ihren Daten, auch für den Fall der Weitergabe an Unterauftragsverarbeiter.
+Das Hosting / der Betrieb der Website erfolgt auf Servern innerhalb der EU (z. B. Server von Amazon Webservices „AWS“).
+Darüber hinaus verwenden wir über unseren Dienstleister ein sog. Content Delivery Network (CDN), das u.a. aus Gründen der Datensicherheit / des Datenschutzes vor Datenverlust, aber auch, um Inhalte schnell bereitstellen zu können, Inhalte in über 275 global verteilten „Points of Presence“ speichert. Derzeit verwenden wir dabei das CDN „AWS CloudFront“, einen Dienst von Amazon Web Services EMEA SARL, mit Sitz in 38 Avenue John F. Kennedy, L-1855, Luxemburg. AWS CloudFront ermöglicht Verwendern hierbei DSGVO-konforme CDN-Einstellungen, vgl. hierzu https://aws.amazon.com/de/compliance/gdpr-center/, https://aws.amazon.com/de/managed-services/ sowie https://docs.aws.amazon.com/de_de/AmazonCloudFront/latest/DeveloperGuide/data-protection-summary.html.
+Rechtsgrundlage der Datenerhebung und Nutzung des CDN ist unser berechtigtes Interesse nach Art.6 Abs. 1 S. 1 lit. f) DSGVO an professioneller Website-Pflege, -Hosting und -Verfügbarkeit.
+Einsatz von Plug-ins
+Cookiebot
+Wir nutzen auf unserer Website das Cookie-Banner „Cookiebot“ der Cybot A/S, Havnegade 39, 1058 Kopenhagen, Dänemark („Cybot“), welche sich mit der Usercentrics GmbH, Sendlinger Str. 7, 80331 München („Usercentrics“) zusammengeschlossen hat. Zur Gewährleistung der Funktionsfähigkeit wird bei Aufrufen unserer Website automatisch ein erforderliches Cookie gesetzt und es werden (abhängig von den ausgewählten Cookie-Präferenzen) Daten an Cybot/Usercentrics übertragen, wie Datum und Uhrzeit, Browser- und Geräte-Informationen, Standort und Cookie-Präferenzen. Cybot/Usercentrics werden dabei als sogenannter Auftragsverarbeiter eingesetzt und gewährleisten damit einen sicheren Umgang mit personenbezogenen Daten, auch für den Fall der Weitergabe an Unterauftragsverarbeiter.
+Wir nutzen Cookiebot, um die Präferenzen und ggf. die Einwilligung unserer Websitebesucher bezüglich des Einsatzes von sog. Cookies einzuholen. Mehr zum Thema Cookies finden Sie sowohl im Cookie-Banner als auch in unserer Cookie-Erklärung.
+Rechtsgrundlage für die Nutzung eines sog. Consent-Management-Tools beim Einsatz zustimmungsbedürftiger Cookies ist die Erfüllung unserer rechtlichen Verpflichtung nach Art. 6 Abs. 1 S. 1 lit. c) DSGVO nach Art. 6 Abs. 1 S. 1 lit. a) DSGVO.
+Informationen zu Cookiebot erhalten Sie unter https://www.cookiebot.com/de/.
+Kartendienst OpenStreetMap
+Wir nutzen auf unserer Website interaktive Karten. Es wird dabei das Kartenmaterial von OpenStreetMap eingesetzt. OpenStreetMap ist als sog. „Open Data gemäß der Open Data Commons Open Database Lizenz (ODbL) verfügbar. OpenStreetMap wird von der OpenStreetMap Foundation (OSMF), 132 Maney Hill Road, Sut¬ton Cold¬field, West Mid¬lands, B72 1JU, United Kingdom, für die OSM-Gemeinschaft betrieben und stellt Kartenmaterial für die Auffindbarkeit von geografischen Informationen zur Verfügung. Das Kartenmaterial wird hierbei durch einen Server von OSFM und über eine Einbindung durch die Mapbox, Inc., 740 15th St Nw Suite 500 Washington, DC 20005, USA (im Folgenden „Mapbox“) zur Verfügung gestellt. Mapbox wird als sog. Unterauftragsverarbeiterin eingesetzt und gewährleistet damit einen sicheren Umgang mit Ihren Daten.
+Erst, wenn Sie im Cookie-Banner dem Einsatz von „Marketing“-Cookies zustimmen, stellt Ihr Browser eine Verbindung zur interaktiven Karte her. Sollten Sie zustimmen, wird technisch gesehen dabei kein Cookie gesetzt, sondern stattdessen ein sog. Plug-in eingebunden. Es erfolgt dann eine Erhebung und Speicherung von Daten, insbesondere auch Ihrer IP-Adresse und weiterer Webserver-Protokolldateien zur statistischen Auswertung. Weitere statistische Auswertungen können auch durch den zusätzlichen Einsatz von Webanalysesoftware vorgenommen werden, insbesondere kann es hier zur geografischen Erfassung Ihres Standorts kommen.
+Personenbezogene Daten, die nicht mit einer Kachelanforderung in Verbindung stehen (z. B. IP-Adressen und Anforderungsdetails), werden im Vereinigten Königreich und in den Niederlanden gespeichert. Sicherungskopien werden in der EU gespeichert. Kartenkacheln werden von einem globalen Netzwerk von Cache-Servern bereitgestellt. Auf welchen Kachelserver Ihr Browser oder Ihre App zugreift, hängt vom Betrieb des Content Delivery Network zum Zeitpunkt der Anfrage ab (https://osmfoundation.org/wiki/Privacy_Policy).
+Rechtsgrundlage für die Nutzung von OpenStreetMap ist unser berechtigtes Interesse nach Art. 6 Abs. 1 S. 1 lit. f) DSGVO an der Einbindung eines Kartendienstes, um Nutzern die Möglichkeit zu bieten, mit dem Angebot von OpenStreetMap zu interagieren, sodass wir unser Angebot auf unserer Website verbessern und für Sie interessanter ausgestalten können. Rechtsgrundlage für die Datenübertragung ist Ihre durch Aktivierung der Marketing-Cookies im Cookie-Banner erteilte Zustimmung nach Art. 6 Abs. 1 S. 1 a) DSGVO bzw. § 25 TDDDG.
+Weitere Informationen zu Zweck und Umfang der Datenerhebung sowie ihrer Verarbeitung durch OpenStreetMap erhalten Sie in der Datenschutzerklärung von OpenStreetMap unter https://wiki.osmfoundation.org/wiki/Privacy_Policy bzw. zu Mapbox unter https://www.mapbox.com/legal/privacy.
+
+Google Fonts
+Auf dieser Website haben wir zur Darstellung bestimmte, von Google bereitgestellte Schriftarten (Fonts) eingebunden. Beim Aufruf einer Seite lädt Ihr Browser diese Schriftarten dabei nicht von einem Google-Server, sondern von einem durch unseren Hosting-Dienstleister (s. oben „Website-Pflege und Hosten“) zur Verfügung gestellten Server (sog. lokales Hosten der Google Fonts). Hierfür werden nur Serverstandorte innerhalb des Europäischen Wirtschaftsraums verwendet. D. h. es werden durch Nutzung dieser lokal gehosteten Google Fonts keine Daten, auch nicht Ihre IP-Adresse, an einen Server der Firma Google übertragen.
+Rechtsgrundlage für die Nutzung der lokal gehosteten Google Fonts sowie der hierfür eingesetzten Server innerhalb des EWR ist demnach unser berechtigtes Interesse nach Art. 6 Abs. 1 S. 1 lit. f) DSGVO an der attraktiven Darstellung unserer Website-Inhalte anhand einer Auswahl aus zahlreichen, lizenzgebührfreien Schriften.
+Eingabeformulare und Kontaktmöglichkeiten
+E-Mail
+Es besteht für Sie die Möglichkeit, mit uns per E-Mail Kontakt aufzunehmen. In einem solchen Fall werden von uns Ihre E-Mail Adresse und die anderen von Ihnen freiwillig übermittelten Daten je nach Anfrageinhalt für die unter II. genannten Zeiträume gespeichert. Die Verarbeitung der per E-Mail eingegebenen Daten erfolgt je nach Anfrageinhalt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a) DSGVO oder gemäß Art. 6 Abs. 1 S. 1 lit. b) DSGVO soweit vertragliche Erfüllungspflichten oder die Durchführung vorvertraglicher Maßnahmen bestehen.
+
+Kontaktformular
+Unser Kontaktformular soll Ihnen die Möglichkeit geben, sich mit uns in Verbindung zu setzen. Wir benötigen zur Bearbeitung Ihrer Anfrage die folgenden Daten: Name, E-Mail, Telefonnummer sowie optional angegebene Daten im Freitext. Die von Ihnen angegebenen Daten werden je nach Anfrageinhalt für die unter II. genannten Zeiträume gespeichert. Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt je nach Anfrageinhalt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a) DSGVO oder gemäß Art. 6 Abs. 1 S. 1 lit. b) DSGVO, soweit vertragliche Erfüllungspflichten oder die Durchführung vorvertraglicher Maßnahmen bestehen. Zudem erfolgt die Verarbeitung Ihrer Kontaktformulardaten auch auf Grundlage von Art. 6 Abs. 1 S. 1 lit. f) DSGVO aufgrund unseres berechtigten wirtschaftlichen, ideellen und technischen Interesses an der Bereitstellung und Nutzung eines zeitgemäßen Informationsmediums.
+
+Google reCAPTCHA
+Zum Schutz unserer Eingabeformulare benutzen wir Google reCAPTCHA. Bei reCAPTCHA handelt es sich um einen Dienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.
+reCAPTCHA ermöglicht es uns zu unterscheiden, ob der jeweilige Verarbeitungsvorgang auf einer menschlichen Eingabeaufforderung oder einer automatisierten maschinellen Veranlassung (sog. „Bot“) beruht. Durch die Verwendung von reCAPTCHA werden Ihre IP-Adresse als auch weitere Ihr Nutzungsverhalten betreffende Daten durch Google erhoben, analysiert und gespeichert: Referrer URL (Website von der der Besucher kommt), verwendetes Betriebssystem und dessen Oberfläche, Browser und genutzte Plug-ins, Datums-, Zeit- und Spracheinstellungen, serverseitige Cookies, Bildschirmauflösung, Maus- und Keyboardverhalten, Canvas-Fingerprinting anhand/und Javascript-Objekte (hierbei wird sozusagen eine Momentaufnahme des benutzten Endgeräts inkl. verwendeter Einstellungen unter Berücksichtigung der installierten Grafikkarte und Treiber sowie der Usereinstellungen abgebildet). Google analysiert diese Daten dabei bereits, bevor der Nutzer das Häkchen „Ich bin kein Roboter“ geklickt hat. Der Nutzer kann anhand dieser Daten dann individualisiert werden und anhand dieser Individualisierung ist es reCAPTCHA möglich, zu unterscheiden, ob es sich um einen Menschen oder ein Bot handelt. Während Anforderungen eines Menschen beim Befüllen von Online-Formularen zugelassen werden, werden die von Bots abgelehnt. Informationen zu reCAPTCHA erhalten Sie unter https://developers.google.com/recaptcha/.
+Weitere Informationen über die Übermittlung von personenbezogenen Daten in Drittstaaten durch Google erhalten Sie unter https://policies.google.com/privacy/frameworks.
+Die erhobenen und an Google übermittelte Daten sowie die gekürzte IP-Adresse wird nur dann mit anderen Daten von Google zusammengeführt, wenn Sie zum Zeitpunkt der Nutzung von Google reCAPTCHA in Ihrem Google-Konto angemeldet sind. Sofern Sie dieses nicht wünschen, sollten Sie sich grundsätzlich beim Surfen im Internet von Ihrem Google-Konto abmelden. reCAPTCHA wird gleichzeitig zum Digitalisieren von Büchern, Zeitschriften und von Hausnummern und Straßennamen aus Google Street View verwendet.
+Zudem haben Sie bei verschiedenen Browsern die Möglichkeit, Einstellungen vorzunehmen, die Tracking durch Canvas-Fingerprinting dadurch unterbinden, dass sie bei der Generierung des Canvas-Bildes zufällig gewählte falsche Parameter angeben.
+Rechtsgrundlage für die Nutzung von Google reCAPTCHA ist unser berechtigtes Interesse nach Art. 6 Abs. 1 S. 1 lit. f) DSGVO am Schutz unserer Website vor automatisierten maschinell veranlassten Eingabeaufforderungen um so die Funktion und Stabilität unserer Website zu gewährleisten sowie am Freihalten unserer Kontaktformulare von Spam-Nachrichten bzw. Bot-Angriffen durch eine für den Nutzer komfortable Anwendung, bei der er lediglich das in reCAPTCHA angeforderte Häkchen klicken muss, ohne – wie bei diversen anderen Captcha-Diensten – erst durch mehrere Stufen der Bild-/Texterkennung seine menschliche Identität zu verifizieren. Sofern Daten in die USA (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA) übermittelt werden, erfolgt diese auf der Grundlage des Angemessenheitsbeschlusses der Europäischen Kommission zum EU-U.S. zum Data Privacy Framework, Artikel 45 DSGVO.
+Informationen zu den Angemessenheitsbeschlüssen und zum Einsatz von Standardvertragsklauseln durch Google finden Sie unter https://policies.google.com/privacy/frameworks?hl=de;
+Informationen zu reCAPTCHA erhalten Sie unter https://developers.google.com/recaptcha/.
+Weitere Informationen zum Datenschutz von Google erhalten Sie über den folgende Links:
+Datenschutzerklärung: https://www.google.com/policies/privacy/;
+Einstellungsmöglichkeiten über personalisierte Werbung: https://adssettings.google.com/authenticated.
+Sonstige Formulare / Aktionen
+Es ist möglich, dass wir auf unserer Website oder über sog. Pop-up-Fenster Leistungen anbieten oder Sonderaktionen durchführen. Je nach Angebot können hierbei über eingebundene Formulare personenbezogene Daten abgefragt und verarbeitet werden. Wir fragen hierbei die jeweils zur Bearbeitung und Abwicklung erforderlichen Daten ab. Die von Ihnen angegebenen Daten werden je nach Anfrageinhalt für die unter II. genannten Zeiträume gespeichert. Die Verarbeitung der in das Formular eingegebenen Daten erfolgt je nach Angebot / Aktion auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 S. 1 lit. a) DSGVO, zur Vertragsanbahnung / -durchführung gemäß Art. 6 Abs. 1 S. 1 lit. b) DSGVO und auch auf Grundlage von Art. 6 Abs. 1 S. 1 lit. f) DSGVO aufgrund unseres berechtigten wirtschaftlichen, ideellen und technischen Interesses an der Bereitstellung und Nutzung eines zeitgemäßen Angebotsformats.
+
+Ihre Rechte
+Sie haben gegenüber uns folgende unentgeltliche Rechte hinsichtlich der Sie betreffenden personenbezogenen Daten:
+Recht auf Auskunft (Art. 15 DSGVO),
+Recht auf Berichtigung oder Löschung (Art. 16 und Art. 17 DSGVO),
+Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO),
+Recht auf Datenübertragbarkeit (Art. 20 DSGVO),
+Recht auf Widerruf Ihrer Einwilligung (Art. 7 Abs. 3 DSGVO). Durch den Widerruf wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Datenverarbeitung nicht berührt.
+Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO). Sofern wir Datenverarbeitungen auf Art. 6 Abs. 1 S. 1 lit. f) DSGVO stützen, haben Sie das Recht, aus Gründen, die sich aus Ihrer persönlichen Situation ergeben, Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten einzulegen. Im Falle eines Widerspruchs, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen. Widersprechen Sie der Verarbeitung Ihrer personenbezogenen Daten für Zwecke der Direktwerbung, werden wir diese Daten nicht mehr für diese Zwecke verarbeiten. Den Widerspruch richten Sie bitte an die unter A. I. 2. genannte Stelle.
+2.Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren (Art. 77 DSGVO). In der Regel können Sie sich hierfür an die Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder unseres Unternehmenssitzes wenden.
+Einsatz von Cookies und vergleichbaren Technologien
+Wir verwenden Cookies und vergleichbare Technologien bei der Nutzung unserer Website. Cookies sind kleine Textdateien, die im Rahmen Ihres Besuchs unserer Internetseiten von unserem Webserver an Ihren Browser gesandt und von diesem auf Ihrem Rechner für einen späteren Abruf vorgehalten werden. Cookies dienen neben der Ermittlung der Nutzungshäufigkeit und Nutzeranzahl sowie der Analyse der Verhaltensweisen unserer Website-Nutzung auch dazu, unseren Website-Auftritt insgesamt nutzerfreundlicher zu gestalten. Sofern andere als „notwendige Cookies“ eingesetzt werden, geschieht dies nur nach Ihrer ausdrücklichen Einwilligung (Cookie-Banner-Opt-In).
+
+Eine vollständige Aufstellung aller eingesetzter Cookies können Sie den Tabellen in unserer Cookie-Erklärung entnehmen.
+
+Cookies, Drittanbieter-Cookies und vergleichbare Technologien
+Auf unseren Webseiten nutzen wir Cookies. Bei Cookies handelt es sich um kleine Textdateien, die auf Ihrer Festplatte dem von Ihnen verwendeten Browser durch eine charakteristische Zeichenfolge zugeordnet und gespeichert werden und durch welche der Stelle, die das Cookie setzt, bestimmte Informationen zufließen. Cookies können keine Programme ausführen oder Viren auf Ihren Computer übertragen und daher keine Schäden anrichten. Sie dienen dazu, das Internetangebot insgesamt nutzerfreundlicher und effektiver, also für Sie angenehmer zu machen.
+
+Cookies können Daten enthalten, die eine Wiedererkennung des genutzten Geräts möglich machen. Teilweise enthalten Cookies aber auch lediglich Informationen zu bestimmten Einstellungen, die nicht personenbeziehbar sind. Cookies können einen Nutzer aber nicht direkt identifizieren.
+
+Man unterscheidet zwischen Session-Cookies, die wieder gelöscht werden, sobald Sie ihren Browser schließen und permanenten Cookies, die über die einzelne Sitzung hinaus gespeichert werden. Hinsichtlich ihrer Funktion unterscheidet man bei Cookies wiederum zwischen:
+
+Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.
+Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.
+Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.
+Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind.
+Rechtsgrundlage für Cookies, die unbedingt erforderlich sind, um Ihnen den ausdrücklich gewünschten Dienst zur Verfügung zustellen, ist § 25 Abs. 2 Nr. 2 TDDDG. Jeder Einsatz von Cookies und vergleichbaren Technologien, die hierfür nicht zwingend technisch erforderlich ist, stellen eine Datenverarbeitung dar, die nur mit einer ausdrücklichen und aktiven Einwilligung Ihrerseits gem. § 25 Abs. 1 TDDDG iVm Art. 6 Abs. 1 S. 1 lit. a) DSGVO erlaubt ist. Dies gilt insbesondere für die Verwendung von Präferenz, Statistik oder Marketing Cookies sowie vergleichbaren Technologien. Darüber hinaus geben wir Ihre durch Cookies verarbeiteten personenbezogenen Daten nur an Dritte weiter, wenn Sie nach Art. 6 Abs. 1 S. 1 lit. a) DSGVO eine ausdrückliche Einwilligung dazu erteilt haben.
+
+Cookie-Bestimmungen
+Privacy settings for sharing your user data with third parties to determine your interests.
+
+This site uses third-party website tracking technologies to provide and continuously improve its services and to display advertisements according to users' interests. If you give your consent, this may involve processing data outside the European Economic Area, where the level of data protection is below the high European standards. More information on this and on third country data processing through our use of Cloudfront (Amazon Web Services) is available in our Privacy Policy. Your consent is voluntary, it is not a condition of use of this website and can be changed or revoked at any time by clicking on the round revocation icon at the bottom left of the website.
+
+Imprint | Privacy
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.
+
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.
+
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.
+
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.
+
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.
+
+Please state your consent ID and date when you contact us regarding your consent.
+
+Your consent applies to the following domains: www.lehmann-neitzel.de
+
+Your current state: Allow all. 
+Your consent ID: 07c4DtOZHHiLOd2S227vDNCHUcKjdUhUO/guwl+g6vUDaLWTRmmalQ==
+Consent date: Tuesday, May 26, 2026 at 07:56:20 PM GMT+2
+
+Change your consent  |  Withdraw your consent
+
+Cookie declaration last updated on 5/21/26 by Cookiebot:
+
+Necessary (11)
+
+Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.
+
+Name	Provider	Purpose	Maximum Storage Duration	Type
+_GRECAPTCHA	Google	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.	180 days	HTTP Cookie
+CookieConsent	Cookiebot	Stores the user's cookie consent state for the current domain	1 year	HTTP Cookie
+dm_last_page_view	static.cdn-website.com	This cookie is used to identify the frequency of visits and how long the visitor is on the website.	1 year	HTTP Cookie
+dm_last_visit	static.cdn-website.com	This cookie is used to identify the frequency of visits and how long the visitor is on the website.	1 year	HTTP Cookie
+dm_this_page_view	static.cdn-website.com	This cookie is used to determine when the visitor last entered the different subpages on the website.	1 year	HTTP Cookie
+dm_timezone_offset	static.cdn-website.com	This cookie is used to determine when the visitor last entered the different subpages on the website.	16 days	HTTP Cookie
+dm_total_visits	static.cdn-website.com	This cookie is used to identify the frequency of visits and how long the visitor is on the website.	1 year	HTTP Cookie
+rc::a	Google	This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.	Persistent	HTML Local Storage
+rc::b	Google	This cookie is used to distinguish between humans and bots.	Session	HTML Local Storage
+rc::c	Google	This cookie is used to distinguish between humans and bots.	Session	HTML Local Storage
+rc::f	Google	This cookie is used to distinguish between humans and bots.	Persistent	HTML Local Storage
+Statistics (3)
+
+Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.
+
+Name	Provider	Purpose	Maximum Storage Duration	Type
+_sp_id.#	Amazon	Collects data on the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded with the purpose of generating reports for optimising the website content.	2 years	HTTP Cookie
+_sp_ses.#	Amazon	Used by Snowplow Analytics to track how users are browsing and engaging with a website.	1 day	HTTP Cookie
+snowplowOutQueue_snowplow_cf	Amazon	Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.	Persistent	HTML Local Storage
