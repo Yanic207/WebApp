@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nachricht gesendet – Lehmann &amp; Neitzel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { moos: '#0B1611', salbei: '#93C572', creme: '#F4F1EA' },
+          fontFamily: { serif: ['"Playfair Display"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background-color: #0B1611; color: #F4F1EA; }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center px-5">
+  <div class="text-center max-w-lg">
+    <div class="w-16 h-16 rounded-full bg-salbei/20 flex items-center justify-center mx-auto mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-salbei" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </div>
+    <h1 class="font-serif text-3xl sm:text-4xl text-creme">Vielen Dank!</h1>
+    <p class="text-creme/70 mt-4 text-lg">Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
+    <a href="index.html" class="inline-block mt-8 bg-salbei text-moos font-semibold px-7 py-3.5 rounded-full hover:bg-salbei/90 transition-all">
+      Zurück zur Startseite
+    </a>
+  </div>
+</body>
+</html>
